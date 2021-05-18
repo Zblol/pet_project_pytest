@@ -8,6 +8,5 @@ def test_guest_can_add_product_to_basket(browser):
     page.open()
     page.added_product_to_cart()
     page.solve_quiz_and_get_code()
-    time.sleep(20)
     page.should_be_title_product_in_message()
     page.should_be_price_product_in_message()
