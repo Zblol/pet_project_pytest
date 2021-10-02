@@ -5,7 +5,13 @@ packaging==20.9
 pluggy==0.13.1
 py==1.10.0
 pyparsing==2.4.7
-pytest==6.2.3
+pytest~=6.2.4
 selenium==3.141.0
 toml==0.10.2
 urllib3==1.26.4
+
+pip~=21.0.1
+configparser~=5.0.2
+lxml~=4.6.2
+setuptools~=49.2.1
+jedi~=0.18.0

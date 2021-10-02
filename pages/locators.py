@@ -12,7 +12,7 @@ class LoginPageLocators:
 
 class ProductPageLocator:
     TITLE_PRODUCT = (By.CSS_SELECTOR, '.product_main h1')
-    PRICE_PRODUCT = (By.CLASS_NAME, 'price_color')
+    PRICE_PRODUCT = (By.CSS_SELECTOR, 'h1 + .price_color')
     ADDED_BUTTON_PRODUCT = (By.CLASS_NAME, 'btn-add-to-basket')
-    TITLE_MESSAGE = (By.CSS_SELECTOR, '.alert-success .alertinner')
-    PRICE_MESSAGE = (By.CSS_SELECTOR, '.alert-info .alertinner')
+    TITLE_MESSAGE = (By.CSS_SELECTOR, 'div.alertinner > strong')
+    PRICE_MESSAGE = (By.CSS_SELECTOR, 'div.alertinner > p > strong')
