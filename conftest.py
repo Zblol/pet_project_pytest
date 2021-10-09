@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 def pytest_addoption(parser):
-    parser.addoption('--language', action="store", default='en',
+    parser.addoption('--language', action="store", default='ru',
                      help="Choose your language like 'ru', 'fr','en' etc")
 
 

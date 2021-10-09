@@ -4,6 +4,12 @@ from selenium.webdriver.common.by import By
 class BasePageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    CART_BUTTON = (By.CSS_SELECTOR, 'a[class="btn btn-default"]')
+
+
+class CartPageLocators:
+    CART_TOTAL = (By.CSS_SELECTOR, 'th[class="total align-right"]')
+    EMPTY_MESSAGE = (By.CSS_SELECTOR, '#content_inner p')
 
 
 class MainPageLocators:
